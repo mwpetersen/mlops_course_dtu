@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlops_course_dtu"
+version = "0.1.0"
+authors = [{name = "Mikkel W. Petersen", email = "mikkel.w.petersen@gmail.com"}]
+description = "MLOps course at DTU"
+requires-python = ">=3.8"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
