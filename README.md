@@ -1,1 +1,1 @@
-# mlops_course_dtu
+# Directory for the MLOps project
