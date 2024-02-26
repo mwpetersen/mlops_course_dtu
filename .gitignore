@@ -91,8 +91,6 @@ target/
 # Python environment
 .venv/
 
-data/
-
 .databricks
 tests/__pycache__
 src/__pycache__

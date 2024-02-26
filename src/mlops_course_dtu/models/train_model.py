@@ -5,8 +5,6 @@ from src.models.model import myawesomemodel
 
 from src.data.data import mnist
 
-import mlops_course_dtu
-
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
