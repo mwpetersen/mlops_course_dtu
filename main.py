@@ -1,9 +1,10 @@
 import click
 import torch
 from torch import nn
-from model import myawesomemodel
+from src.models.model import myawesomemodel
 
-from data import mnist
+from src.data.data import mnist
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
@@ -61,8 +62,8 @@ def evaluate(model_checkpoint):
     )
     model.eval()
 
-    test_preds = [ ]
-    test_labels = [ ]
+    test_preds = []
+    test_labels = []
     with torch.no_grad():
         for batch in test_dataloader:
             x, y = batch
