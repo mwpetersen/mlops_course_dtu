@@ -1,5 +1,5 @@
-from mlops_course_dtu.data.data import one
+from mlops_course_dtu.data.data import integer_one
 
 
 def test_one():
-    assert one() == 1
+    assert integer_one() == 1
