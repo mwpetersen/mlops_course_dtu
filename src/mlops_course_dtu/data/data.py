@@ -26,3 +26,7 @@ def mnist():
         torch.utils.data.TensorDataset(train_data, train_labels),
         torch.utils.data.TensorDataset(test_data, test_labels),
     )
+
+
+def one():
+    return 1

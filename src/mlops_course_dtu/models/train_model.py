@@ -1,9 +1,9 @@
 import click
 import torch
 from torch import nn
-from src.mlops_course_dtu.models.model import myawesomemodel
+from mlops_course_dtu.models.model import myawesomemodel
 
-from src.mlops_course_dtu.data.data import mnist
+from mlops_course_dtu.data.data import mnist
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
