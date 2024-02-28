@@ -28,5 +28,5 @@ def mnist():
     )
 
 
-def integer_one():
+def integer_1():
     return 1
