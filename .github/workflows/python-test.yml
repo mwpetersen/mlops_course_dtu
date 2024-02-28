@@ -3,6 +3,8 @@ name: Python application test
 on:
   pull_request:
     branches: [ main ] # or any other branch you want to run tests against
+  workflow_dispatch:  # This line allows manual triggering of the workflow from GitHub's UI
+
 
 jobs:
   build:
