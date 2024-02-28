@@ -8,6 +8,7 @@ on:
 
 jobs:
   build:
+    name: python test
 
     runs-on: ubuntu-latest
 
